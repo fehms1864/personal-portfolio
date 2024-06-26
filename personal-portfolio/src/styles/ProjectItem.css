@@ -1,0 +1,42 @@
+.project-item {
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-item .card {
+    transition: box-shadow 0.3s;
+  }
+  
+  .project-item .card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-item .btn {
+    transition: background-color 0.2s;
+  }
+  
+  .project-item .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .project-item .row {
+    height: 100%;
+  }
+  
+  .project-item .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-item .img-fluid {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  

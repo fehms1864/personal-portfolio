@@ -1,0 +1,39 @@
+.about-section {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    color: #343a40;
+  }
+  
+  .about-section .container {
+    max-width: 800px;
+  }
+  
+  .about-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #6a11cb;
+    text-align: center;
+  }
+  
+  .about-section .lead {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #6c757d;
+  }
+  
+  .about-section .profile-pic {
+    text-align: center;
+    /* margin-top: 1rem; */
+  }
+  
+  .about-section .profile-pic img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.7s;
+  }
+  
+  .about-section .profile-pic img:hover {
+    transform: scale(1.5);
+  }

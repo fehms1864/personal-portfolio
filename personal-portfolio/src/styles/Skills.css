@@ -1,0 +1,32 @@
+.skills-section {
+    padding: 5rem 0;
+    background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+    color: #343a40;
+  }
+  
+  .skills-section .container {
+    max-width: 800px;
+  }
+  
+  .skills-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #6a11cb;
+    text-align: center;
+  }
+  
+  .skills-section .skill {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .skills-section .skill h3 {
+    font-size: 1.75rem;
+    color: #6c757d;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .skills-section .skill h3:hover {
+    transform: scale(1.1);
+    color: #343a40;
+  }

@@ -25,3 +25,9 @@
     transform: scale(1.1);
     background-color: #0056b3;
   }
+
+  .pdfResume {
+    margin-top: 1rem;
+    overflow: hidden;
+    transition: height 1.5s ease-out;
+  }
